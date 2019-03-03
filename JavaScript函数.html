@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+function doAd(num1,num2) {
+    if (arguments.length==1) {
+        console.log(num1 + 10);
+        } else if(arguments.length==2){
+    console.log(arguments[0]+num2);
+}
+}
+doAd(10);
+doAd(40,20)
+
+function name(params) {
+    
+}  
+    
+
+var person = new Object()
+person.name = "jack";
+person.age= 18;
+console.log(person.name);
+
+var color = "blue";
+function changeColor() {
+    if (color === "blue") {
+        color = "red"
+    }
+}
+changeColor()
+console.log(color);   
+
+function multArgsFunc() {
+    var sum = 0;   
+    for(var i = 0; i < arguments.length; i++) {
+        sum = arguments[i]+sum;
+    }
+    return sum;
+}
+
+console.log(multArgsFunc(1, 2, 3, 4)); // 10
+console.log(multArgsFunc(1, 2, 3, 4, 52,)); // 15
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
