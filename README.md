@@ -1,2 +1,1 @@
-# first-day
-一起进步 一起玩耍
+从0学习JAVASCRIPT
